@@ -5,8 +5,8 @@ end
 end
 
 def list_dwarves(array)
-  array.each_with_index do |count, numname|
-    hash[count] = numname
+  array.each_with_index do |count,numname|
+    [count] = numname
     puts "#{numname}"
   end
 end
