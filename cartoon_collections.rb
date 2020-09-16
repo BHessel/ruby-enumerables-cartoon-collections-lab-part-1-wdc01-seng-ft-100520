@@ -5,8 +5,7 @@ end
 end
 
 def list_dwarves(array)
-  array.each_with_index do |count,name|
-    
-    puts "#{numname}"
+  array.each_with_index do |name,count|
+    puts "#{count}#{name}"
   end
 end
